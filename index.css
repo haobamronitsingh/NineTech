@@ -389,7 +389,24 @@ body{
     padding: 30px;
 
 }
-    
+
+.container  p{
+
+    color: #ffdb89;
+    margin: 0%;
+    padding-bottom: 0;
+    padding-left: 30px ;
+    margin-top: 20px;
+}
+
+span{
+
+    height: 2px;
+    width: 70%;
+    background-color: #ffdb89;
+    top: 70%;
+    left: 0%;
+}
     
     
 }
