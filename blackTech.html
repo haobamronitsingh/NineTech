@@ -47,31 +47,31 @@
         </ul>
     </header>
 
-
     <div class="container">
         <div class="container1">
-            <img src="pics/1.jpg" alt="">
+            <img src="1.jpg" alt="">
         </div>
     </div>
     <div class="description">
-    <pre>
-    Core: 
-    Techwear, Cyberpunk Fashion, 
-    Streetwear, Tactical Gear, 
-    Urban Ninja, Darkwear
-    </pre>
+        <ul class="list1">
+            <li>Core:</li>
+            <li>Techwear, Cyberpunk Fashion,</li>
+            <li> Streetwear, Tactical Gear,</li>
+            <li>Urban Ninja, Darkwear</li>
+        </ul>
 
-    <pre>
-    Specific: 
-    Oversized Jacket, Cargo Pants, 
-    High-Top Sneakers, Modular Clothing, 
-    Avant-Garde, Futuristic Mask
-    </pre>
-
-    <pre>
-    Aesthetic: 
-    Goth, Industrial, Utility, Grunge, Warcore
-    </pre>
+        <ul class="list2">
+             
+            <li>Specific:</li>
+            <li>Oversized Jacket, Cargo Pants,</li>
+            <li>High-Top Sneakers, Modular Clothing,</li>
+            <li>Avant-Garde, Futuristic Mask</li>
+        </ul>
+ 
+        <ul class="list3">
+            <li>Aesthetic:</li>
+            <li>Goth, Industrial, Utility, Grunge, Warcore</li>
+        </ul>   
     </div>
 
 
@@ -252,9 +252,57 @@ body{
         }
         .description{
             color: #ffdb89;
-            display: flex;
-            flex-direction: column;
-            
+            display: inline-block;
+        }
+        ul{
+            list-style: none;
+        }
+        .list1{
+            margin: 10px 0px 0px 0px;
+            letter-spacing: 0px;
+            font-size: 1.2rem;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: 
+                typing 1.5s steps(16),
+                cursor .4s step-end infinite alternate;
+        }
+
+        .list2{
+
+            margin: 10px 0px 0px 0px;
+            letter-spacing: 0px;
+            font-size: 1.2rem;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: 
+                typing 1.5s steps(16),
+                cursor .4s step-end infinite alternate;
+        }
+        .list3{
+
+            margin: 10px 0px 0px 0px;
+            letter-spacing: 0px;
+            font-size: 1.2rem;
+            font-family: monospace;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: 
+                typing 1.5s steps(16),
+                cursor .4s step-end infinite alternate;
+        }
+
+        @keyframes cursor{
+            50% { border-color: transparent;}
+        }
+
+        @keyframes typing{
+            from {width: 0;}
         }
         
         .button button{
