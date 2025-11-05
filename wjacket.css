@@ -144,6 +144,7 @@ a{text-decoration: none; color: #faaf00;}
 }
 .container1 img{
     width: 400px;
+    height: 450px;
 }
 .container1 .details{
     
@@ -194,10 +195,10 @@ a{text-decoration: none; color: #faaf00;}
     margin-bottom: 30px;
 }
 
-.like .one img{width: 200px;}
-.like .two img{width: 180px;}
-.like .three img{width: 152px;}
-.like .four img{width: 189px;}
+.like .one img{width: 250px;}
+.like .two img{width: 213px;}
+.like .three img{width: 210px;}
+.like .four img{width: 240px;}
 .like .name1{font-size: 1.5rem;}
 .like .price{font-size: 1.5rem;}
 .info{
