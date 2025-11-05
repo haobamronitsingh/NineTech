@@ -1,0 +1,236 @@
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+
+    background-color:rgb(54, 53, 53);
+    margin: 0%;
+}
+
+ .nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    
+    background-color: #040404;
+    /* background-attachment: fixed;
+   
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;   
+    z-index: 800; */
+} 
+.offScreen{
+    display: flex;
+    position: fixed;  
+    left: -450px;    
+}
+.nav .logo{
+
+    display: flex;
+    font-size: 3rem;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffdb89;    
+}
+
+.nav .logo .tech{
+
+    color: whitesmoke;
+   padding: 10px 5px 10px 5px ;
+}
+
+.nav .logo .nine{
+
+    /* background-color:#ffdb89 ; */
+    color: #ffdb89;
+    padding: 10px 5px 10px 5px ;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+
+.nav1 .about button{
+
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav .about button:hover{
+    background-color: black;
+    color: #ffdb89;
+}
+
+
+.nav1 .home button{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav .home button:hover{
+    background-color: black;
+    color: #ffdb89;
+}
+.nav1 .profile{
+    color: #ffdb89;
+    font-size: 2rem;
+    margin-top: 15px ;
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 2rem;
+    margin-top: 90px;
+}
+.option .men p::before{
+
+}
+.option .men p:hover{
+    color: aliceblue;
+}
+.option .women p::before{
+
+}
+.option .women p:hover{
+    color: aliceblue;
+}
+a{text-decoration: none; color: #faaf00;}
+
+
+.horizon{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    color: #ffdb89;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+.container1 img{
+    width: 400px;
+}
+.container1 .details{
+    
+    background-color: rgb(207, 221, 233);
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+}
+.container1 .details .name{
+    font-size: 3rem;
+}
+.container1 .details .price{
+    font-size: 2rem;
+}
+.container1 .details .size{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.container1 .details .size-chart{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+}
+.container1 .details .size-chart button{
+    font-size: 2rem;
+    background-color: aliceblue;
+    border: none;
+}
+.container1 .details .buy{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.container1 .details .buy button{font-size: 1.5rem;  border: none;}
+.container1 .details .buy .buy-now{background-color: #faaf00;}
+.container1 .details .buy .add{color: #faaf00; background-color: #040404;}
+
+
+.info{
+    display: flex;
+    background-color: #040404;
+    color: #ffdb89;
+    justify-content: center;
+    padding-top: 30px ;
+    padding-bottom: 30px;
+
+}
+
+.info .logo{
+    display: flex;
+    font-size: 2rem;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffdb89;
+    padding: 10px 5px 10px 5px ;
+    
+}
+.info .logo .tech{
+
+    color: whitesmoke;
+}
+.info .logo .nine{
+
+    /* background-color:#ffdb89 ; */
+    color: #ffdb89;
+}
+.info .links{
+
+    margin-left: 400px ;
+}
+.info ul{
+    list-style: none;
+}
+
+.info p{
+    margin-left: 40px;
+    font-size: 1.5rem;
+}
+.info li{
+    margin-bottom: 10px;
+}
+.info .social{
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 640px) {
+    
+}
