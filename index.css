@@ -470,12 +470,12 @@ a{text-decoration: none; color: #faaf00;}
     color: #faaf00;
 }
 .container1 {display: flex;}
-.container1 .techwear img{width: 200px;}
-.container1 .denim img{width: 200px;}
+.container1 .techwear img{width: 130px;}
+.container1 .denim img{width: 130px;}
 
 .container2{display: flex; row-gap: 5px;}
-.container2 .shoes img{ width: 200px; height: 270px; }
-.container2 .caps img{width: 200px; height: 270px; margin-right: 20px;}
+.container2 .shoes img{ width: 130px; height: 200px; }
+.container2 .caps img{width: 130px; height: 200px; margin-right: 20px;}
 
 .container3{
     display: none;
@@ -546,7 +546,7 @@ img.displaySlide{
 
 .caroseler {
     position: relative;
-    width: 500px; 
+    width: 350px; 
     margin-top: 150px;
     overflow: hidden;
     display: flex;
@@ -555,7 +555,7 @@ img.displaySlide{
     }
 
 .caroseler img {
-    width: 500px; 
+    width: 350px; 
     
     }
 }

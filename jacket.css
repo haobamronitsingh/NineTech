@@ -426,9 +426,33 @@ hr{display: none;}
     flex-direction: column;
 }
 .container1 .details{
-    padding: 0px 20px 20px 20px ;
     
+    background-color: rgb(207, 221, 233);
+    padding: 0px 40px 20px 30px;
+    border-radius: 5px;
 }
+.container1 .details .name{
+    font-size: 2rem;
+}
+.container1 .details .price{
+    font-size: 1.5rem;
+}
+.container1 .details .size{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.container1 .details .size-chart{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+}
+.container1 .details .size-chart button{
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    border: none;
+}
+
+.container1 img{width: 300px}
 
 .like{
     display: flex;
@@ -442,6 +466,13 @@ hr{display: none;}
     width: 100%;
     align-items: start;
 
+}
+
+.logo{margin-top: 50px;}
+
+.info .links{
+
+    margin-left: 0px ;
 }
 
 }
