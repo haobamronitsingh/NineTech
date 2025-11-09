@@ -375,15 +375,15 @@ a{text-decoration: none; color: #faaf00;}
     flex-direction: column;
     background-color: #040404;
     color: #ffdb89;
-    height: 100vh;
+    height: 1000vh;
     width: 100%;
     max-width: 450px;
     position: fixed;
     top: 0;
-    z-index: 900px;
     transition: left .3s ease;
     margin-top: 70px ;
     text-align: center;
+    z-index: 5;
 }
 
 .offScreen.active{
@@ -462,6 +462,7 @@ a{text-decoration: none; color: #faaf00;}
 
 .nav1 {display: none;}
 
+
 .option .women{display: none;}
 
 
@@ -487,7 +488,7 @@ a{text-decoration: none; color: #faaf00;}
 .slider{
     position: relative;
     width: 300px;
-    z-index: -1;
+    z-index: 2;
     margin: auto;
     overflow: hidden;
 }
