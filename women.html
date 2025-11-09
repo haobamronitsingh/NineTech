@@ -41,25 +41,45 @@
                 </div>
             </div>
         </div>
-        <div class="offScreen">
         
-        <ul>
+        <div class="offScreen">
+        <ul class="type">
             <li><a href="index.html">HOME</a></li>
             <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CATEGORY</a></li>
+            <li>CATEGORY
+            <li><a href="index.html">
+                <button>MEN</button>
+            </a>
+            </li>
+            <li><a href="women.html">
+                <button>WOMEN</button>
+            </a></li>
+                
+            </li>
         </ul>
     </header>
 
     <main>
-        <div class="carosel">
-            <img src="women/ad1.jpg" alt="">
+         <div class="caroseler">
+            <div class="carosels">
+                <div class="carosel">
+                    <img src="women/carosel1.jpg" alt="">
+                </div>
+                <div class="carosel">
+                    <img src="women/carosel3.jpg" alt="">
+                </div>
+                <div class="carosel">
+                    <img src="women/carosel4.jpg" alt="">
+                </div>
+            
+            </div>
         </div>
         <div class="option">
             <div class="men">
                 <a href="index.html"><p>MEN</p></a>
             </div>
             <div class="women">
-                <a href=""><p>WOMEN</p></a>
+                <a href="women.html"><p>WOMEN</p></a>
             </div>
         </div>
         <div class="category">
@@ -119,6 +139,28 @@
             </div>
         </div>
 
+        <div class="slider">
+            <div class="slides">
+                <a href="wjacket.html">
+                    <img style=" margin-left:3px; " class="slide" src="women/denim1.jpg" alt="">
+                    
+                </a> 
+                <a href="wdress.html">
+                    <img style= "margin-left: 5px;" class="slide" src="women/dress3.jpg" alt="">
+                    
+                </a>
+                <a href=""> 
+                    <img style=" margin-left: 10px;" class="slide" src="women/dress4.jpg" alt="">
+                </a> 
+                <a href="#">
+                    <img style="margin-left: 5px;" class="slide" src="women/tech1.jpg" alt="">
+                   
+                </a> 
+            </div>
+            <button class="prev" onclick="prevSlide()"><i class="fa-duotone fa-solid fa-angle-left"></i></button>
+            <button class="next" onclick="nextSlide()"><i class="fa-duotone fa-solid fa-angle-right"></i></i></button>
+        </div>
+
         
     </main>
 
@@ -161,6 +203,7 @@
     </footer>
 
     <script src="ham.js"></script>
+    <script src="slide.js"></script>
     <script src="https://kit.fontawesome.com/8b0f3e5eca.js" crossorigin="anonymous"></script>
 </body>
 </html>

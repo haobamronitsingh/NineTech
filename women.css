@@ -217,12 +217,34 @@ body{
     font-size: 2rem;
     margin-top: 15px ;
 }
-.carosel{
 
-    display: flex;
-    justify-content: center;
-    margin-top: 150px;
+
+.caroseler{
+    position: relative;
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 90px;
 }
+
+.caroseler img{
+    width:100%;
+    display: none;
+}
+
+img.display{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .5;}
+    to{opacity: 1;}
+    
+}
+
+
 .option{
     display: flex;
     justify-content: center;
@@ -360,6 +382,9 @@ a{text-decoration: none; color: #faaf00;}
     margin-left: 100px;
 }
     
+.slides img{width:  0px; } 
+.slider button{color: rgb(54, 53, 53); border: none; background-color: rgb(54, 53, 53);width: 0%;height: 0%;}
+
 
 @media screen and (max-width: 640px) {
     .nav{
@@ -525,25 +550,20 @@ a{text-decoration: none; color: #faaf00;}
 
 .nav1 {display: none;}
 
-.option .women{display: none;}
+.option .men{display: none;}
 
 
 .category{
     color: #faaf00;
 }
-.carosel{
 
-    margin: 90px 0px 0px 0px;
-    padding: 50px;
-}
-.carosel img{width: 400px;}
 .container1 {display: flex;}
 .container1 .techwear img{width: 200px;}
 .container1 .denim img{width: 200px;}
 
 .container2{display: flex; row-gap: 5px;}
-.container2 .shoes img{ width: 200px; height: 270px; }
-.container2 .caps img{width: 200px; height: 270px; margin-right: 20px;}
+.container2 .dress img{ width: 200px; height: 270px; }
+.container2 .denim2 img{width: 200px; height: 270px; }
 
 .best{color: #ffdb89;}
 
@@ -554,12 +574,12 @@ a{text-decoration: none; color: #faaf00;}
     width: 300px;
     margin: auto;
     overflow: hidden;
+    z-index: -1;
 }
 
 .slider img{
     display: none;
     width: 300px;
-   
     margin-bottom: 50px; 
 }
 
@@ -605,5 +625,20 @@ img.displaySlide{
 
     margin-left: 0px ;
 }    
+
+
+.caroseler {
+    position: relative;
+    width: 450px; 
+    margin-top: 150px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap; 
+    transition: transform 0.5s ease-in-out; 
+    z-index: -1;
+    }
+
+.caroseler img {width: 500px;}
+
 }
 

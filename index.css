@@ -107,13 +107,37 @@ body{
     font-size: 2rem;
     margin-top: 15px ;
 }
-.carosel{
 
-    display: flex;
-    padding: 50px;
+.caroseler{
+    position: relative;
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
     margin-top: 90px;
-    justify-content: center;
 }
+
+.caroseler img{
+    width:100%;
+    display: none;
+}
+
+img.display{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .5;}
+    to{opacity: 1;}
+    
+}
+
+
+
+
+
+
 .option{
     display: flex;
     justify-content: center;
@@ -132,6 +156,8 @@ body{
 .option .women p:hover{
     color: aliceblue;
 }
+
+
 
 .category{
 
@@ -266,6 +292,7 @@ a{text-decoration: none; color: #faaf00;}
     margin-top: 30px;
     margin-left: 100px;
 }
+
 .slider img{width: 0px;} 
 .slider button{color: rgb(54, 53, 53); border: none; background-color: rgb(54, 53, 53);width: 0%;height: 0%;}
     
@@ -353,7 +380,7 @@ a{text-decoration: none; color: #faaf00;}
     max-width: 450px;
     position: fixed;
     top: 0;
-    left: -450px;
+    z-index: 900px;
     transition: left .3s ease;
     margin-top: 70px ;
     text-align: center;
@@ -441,12 +468,6 @@ a{text-decoration: none; color: #faaf00;}
 .category{
     color: #faaf00;
 }
-.carosel{
-
-    margin: 90px 0px 0px 0px;
-    padding: 50px;
-}
-.carosel img{width: 400px;}
 .container1 {display: flex;}
 .container1 .techwear img{width: 200px;}
 .container1 .denim img{width: 200px;}
@@ -466,6 +487,7 @@ a{text-decoration: none; color: #faaf00;}
 .slider{
     position: relative;
     width: 300px;
+    z-index: -1;
     margin: auto;
     overflow: hidden;
 }
@@ -519,4 +541,20 @@ img.displaySlide{
 
     margin-left: 0px ;
 }
+
+
+.caroseler {
+    position: relative;
+    width: 500px; 
+    margin-top: 150px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap; 
+    transition: transform 0.5s ease-in-out; 
+    }
+
+.caroseler img {
+    width: 500px; 
+    
+    }
 }

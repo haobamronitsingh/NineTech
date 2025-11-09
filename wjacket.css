@@ -253,4 +253,196 @@ a{text-decoration: none; color: #faaf00;}
 
 @media screen and (max-width: 640px) {
     
+.nav{
+    display: flex;
+    
+    margin-top: auto;
+    
+    background-color: #040404;
+    background-attachment: fixed;
+   
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;   
+    z-index: 800;
+}     
+
+.nav .menu{
+    /* background-color: black; */
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.nav .logo{
+    margin-top: 14px;
+}
+
+
+.nav .menu .hamMenu{
+
+    height: 50px;
+    width: 50px;
+    margin-right: auto;
+    position: relative;
+        
+ }
+
+.nav .menu .hamMenu span{
+
+    height: 3px;
+    width: 70%;
+    background-color: #ffdb89;
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform:  translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+.nav .menu .hamMenu span:nth-child(1){
+
+    top: 25%;
+}
+
+.nav .menu .hamMenu span:nth-child(3){
+
+    top: 75%;
+}
+
+.nav .menu .hamMenu.active span:nth-child(1){
+    
+    transform : translate(-50%, -50%) rotate(45deg);
+    top: 50%;
+}
+
+.nav .menu .hamMenu.active span:nth-child(2){
+    opacity: 0;
+}
+
+.nav .menu .hamMenu.active span:nth-child(3){
+    
+    transform : translate(-50%, -50%) rotate(-45deg);
+    top: 50%; 
+}
+
+.offScreen{
+    display: flex;
+    flex-direction: column;
+    background-color: #040404;
+    color: #ffdb89;
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    z-index: 900px;
+    transition: left .3s ease;
+    margin-top: 50px ;
+    text-align: center;
+}
+
+.offScreen.active{
+    left: 0;
+}
+
+.offScreen .logo{
+ 
+    display: flex;
+    font-size: 2rem;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffdb89;
+    margin: 20px 0px 0px 100px;
+    
+}
+.offScreen .tech{
+    color: whitesmoke;
+    
+}
+
+
+.offScreen ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-family: "Audiowide", sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    list-style: none;
+    margin: 50px;
+}
+.offScreen a{
+
+    text-decoration: none;
+    color: #ffdb89;
+}
+.type button{
+    font-size: 2rem;
+    font-family: "Audiowide", sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+.type button:hover{background-color: rgb(38, 37, 37); color: #ffdb89; }
+.nav .logo{
+
+    display: flex;
+    font-size: 2.5rem;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffdb89;  
+    width: 80%
+
+}
+
+.nav .logo .tech{
+
+    color: whitesmoke;
+   padding: 0px 5px 10px 5px ;
+}
+
+.nav .logo .nine{
+
+    /* background-color:#ffdb89 ; */
+    color: #ffdb89;
+    padding: 0px 5px 10px 5px ;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.nav1 {display: none;}
+
+.horizon{display: none;}
+hr{display: none;}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+.container1 .details{
+    padding: 0px 20px 20px 20px ;
+    
+}
+
+.like{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: start;
+
+}
+
 }
